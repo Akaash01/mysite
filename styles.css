@@ -621,6 +621,10 @@ footer {
 }
 
 @media (max-width: 395px) {
+  .dynamic-txts li {
+    line-height: 30px;
+    font-size: 20px;
+  }
   .grid-container {
     grid-template-columns: 1fr;
   }
@@ -654,5 +658,13 @@ footer {
   }
   .sub-skill-sec {
     padding: 10px 66px;
+  }
+  .static-txt {
+    font-size: 20px;
+  }
+  @keyframes slide {
+    100% {
+      top: -120px;
+    }
   }
 }
